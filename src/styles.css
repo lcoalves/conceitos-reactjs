@@ -22,6 +22,10 @@ div li + li {
   margin-top: 15px;
 }
 
+svg {
+  margin: 0 8px;
+}
+
 button {
   background: #7159c1;
   color: #fff;
@@ -33,7 +37,12 @@ button {
   font-size: 14px;
 }
 
-div li button {
+.like {
   margin: 0 15px;
+  background: blue;
+}
+
+.remove {
+  margin: 0 8px;
   background: #ca4949;
 }
